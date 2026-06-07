@@ -4,25 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online-plant-shop</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="/"> <img src="./images/Logo.svg" alt="site logo" />Planty</a>
+    <header class="header">
+      <a class="header-logo" href="/">
+        <img src="./images/Logo.svg" alt="site logo" />Planty</a
+      >
 
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">All Category</a></li>
-          <li><a href="">Shop</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Contact Us</a></li>
+      <nav class="header-navigation">
+        <ul class="header-list">
+          <li class="header-item"><a class="header-link" href="">Home</a></li>
+          <li class="header-item"><a class="header-link" href="">About</a></li>
+          <li class="header-item">
+            <a class="header-link" href="">All Category</a>
+          </li>
+          <li class="header-item"><a class="header-link" href="">Shop</a></li>
+          <li class="header-item"><a class="header-link" href="">Blog</a></li>
+          <li class="header-item">
+            <a class="header-link" href="">Contact Us</a>
+          </li>
         </ul>
       </nav>
 
-      <ul>
-        <button type="button">Login</button>
-        <button type="button">Register</button>
+      <ul class="header-box">
+        <button class="header-btn" type="button">Login</button>
+        <button class="header-btn" type="button">Register</button>
       </ul>
     </header>
 
@@ -70,6 +84,84 @@
         </li>
         <li></li>
         <li></li>
+      </ul>
+    </section>
+
+    <section class="customers">
+      <h2 class="customers-title">What Our Customers Say ?</h2>
+      <ul class="customers-list">
+        <li class="customers-item">
+          <p class="customers-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            fringilla tempus massa, eget volutpat justo commodo id. Mauris eu
+            neque purus.
+          </p>
+          <div class="customers-box">
+            <img
+              src="./images/Anna.jpg"
+              alt="Anna White"
+              width="44px"
+              height="44px"
+            />
+            <div>
+              <p>Anna White</p>
+              <img
+                src="./images/4stars.svg"
+                alt="stars"
+                width="67px"
+                height="12px"
+              />
+            </div>
+          </div>
+        </li>
+        <li class="customers-item">
+          <p class="customers-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            fringilla tempus massa, eget volutpat justo commodo id. Mauris eu
+            neque purus.
+          </p>
+          <div class="customers-box">
+            <img
+              src="./images/Rose.jpg"
+              alt="Rose Willyam"
+              width="44px"
+              height="44px"
+            />
+            <div>
+              <p>Rose Willyam</p>
+              <img
+                src="./images/4stars.svg"
+                alt="stars"
+                width="67px"
+                height="12px"
+              />
+            </div>
+          </div>
+        </li>
+        <li class="customers-item">
+          <p class="customers-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            fringilla tempus massa, eget volutpat justo commodo id. Mauris eu
+            neque purus.
+          </p>
+          <div class="customers-box">
+            <img
+              src="./images/Anna.jpg"
+              alt="Merry Feder"
+              width="44px"
+              height="44px"
+            />
+            <div>
+              <p>Merry Feder</p>
+              <img
+                src="./images/4stars.svg"
+                alt="stars"
+                width="67px"
+                height="12px"
+              />
+            </div>
+          </div>
+        </li>
       </ul>
     </section>
   </body>
