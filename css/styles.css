@@ -1,3 +1,5 @@
+/* --------------------RESET Styles */
+
 body {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -6,14 +8,41 @@ body {
 
 ul {
     list-style: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
 
-.header {}
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.container {
+    width: 1310px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+    outline: 1px solid red;
+}
+
+
+
+
+
+.header {
+    background: rgba(53, 136, 86, 0.2);
+}
 
 .header-logo {}
 
@@ -49,3 +78,87 @@ a {
     line-height: 1.25;
     text-align: center;
 }
+
+/* Section FIND */
+
+.find {
+    background-image: url(../bg-image-find.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.find-wrap {
+    padding-top: 136px;
+    padding-bottom: 136px;
+}
+
+.find-title {
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.22;
+    text-align: center;
+
+
+}
+
+.find-btn {
+    display: block;
+    padding: 9px 18px;
+    margin-right: auto;
+    margin-left: auto;
+
+    background: rgba(255, 255, 255, 1);
+    color: rgba(37, 82, 59, 1);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.21;
+    text-align: center;
+    border: none;
+}
+
+
+
+
+.customers {}
+
+.customers-title {
+    margin-bottom: 37px;
+
+    color: rgba(37, 82, 59, 1);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.21;
+    text-align: center;
+}
+
+.customers-list {}
+
+.customers-item {
+
+    width: 407px;
+    height: 240px;
+
+    outline: 1px solid red;
+}
+
+.customers-text {
+    display: block;
+    /* padding: 40, 26, 31, 26; */
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-right: 26px;
+    padding-left: 26px;
+
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.customers-box {}
+
+.customers-card {}
