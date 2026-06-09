@@ -27,6 +27,12 @@ p {
     margin: 0;
 }
 
+img {
+    display: block;
+
+
+}
+
 .container {
     width: 1310px;
     padding-left: 15px;
@@ -79,10 +85,162 @@ p {
     text-align: center;
 }
 
+
+
+
+.living {}
+
+.living-container {
+    background-color: rgba(224, 233, 148, 0.25);
+    padding-top: 84px;
+    padding-bottom: 84px;
+}
+
+.living-title {
+    margin-bottom: 50px;
+
+    color: rgba(37, 82, 59, 1);
+    font-size: 50px;
+    font-weight: 600;
+    line-height: .6;
+    text-align: center;
+}
+
+.living-text {
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+.living-price {
+    margin-bottom: 30px;
+
+    color: rgba(37, 82, 59, 1);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.living-btn {
+    display: block;
+    width: 100px;
+    height: 35px;
+    margin: 0 auto;
+
+    background-color: rgba(37, 82, 59, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.21;
+    text-align: center;
+    border: none;
+}
+
+
+
+.shop {}
+
+.shop-container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    background-image: url(../images/shop-bgcolor.jpg);
+    background-position: center;
+}
+
+.shop-title {
+    margin-bottom: 40px;
+
+    color: rgba(37, 82, 59, 1);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.21;
+    text-align: center;
+}
+
+.shop-menu {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.shop-menu-item {}
+
+.shop-menu-link {
+    color: rgba(147, 147, 147, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.22;
+    text-align: center;
+}
+
+.shop-menu-link:hover,
+.shop-menu-link:focus {
+    text-decoration-line: underline;
+    color: rgba(37, 82, 59, 1);
+}
+
+.shop-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 70px 30px;
+
+}
+
+.shop-card {
+    max-width: 297px;
+
+}
+
+.shop-img {
+    margin-bottom: 32px;
+}
+
+.shop-card-text {
+    margin-bottom: 15px;
+
+
+    color: rgba(37, 82, 59, 1);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.22;
+    text-align: left;
+}
+
+.shop-price {
+    color: rgba(151, 151, 151, 1);
+    margin-top: 15px;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+    text-align: left;
+    text-decoration-line: line-through;
+}
+
+.shop-price span {
+    padding-left: 9px;
+    color: rgba(37, 82, 59, 1);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.23;
+    text-align: center;
+    text-decoration-line: none;
+}
+
 /* Section FIND */
 
 .find {
-    background-image: url(../bg-image-find.jpg);
+    background-image: url(../images/bg-image-find.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -120,7 +278,73 @@ p {
 }
 
 
+.collection {}
 
+.collection-title {
+    margin-bottom: 40px;
+
+    color: rgba(37, 82, 59, 1);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.21;
+    text-align: center;
+}
+
+.collection-list {
+    display: flex;
+    gap: 30px;
+}
+
+.collection-item {
+    width: calc((100%-30px)/2);
+    height: 424px;
+    padding-top: 160px;
+
+    outline: 1px solid blue;
+}
+
+.collection-item:first-child {
+    padding-left: 185px;
+    padding-right: 185px;
+    background-image: url(../images/Indor\ plants.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.collection-item:last-child {
+    padding-left: 165px;
+    padding-right: 165px;
+    background-image: url(../images/Outdoor\ plants.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.collection-text {
+    margin-bottom: 20px;
+
+    color: rgba(255, 255, 255, 1);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.39;
+    text-align: left;
+}
+
+.collection-btn {
+    display: block;
+    margin: 0 auto;
+
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.21;
+    text-align: center;
+    color: rgba(37, 82, 59, 1);
+    background: rgba(255, 255, 255, 1);
+    border: none;
+
+}
 
 .customers {}
 
@@ -134,11 +358,14 @@ p {
     text-align: center;
 }
 
-.customers-list {}
+.customers-list {
+    display: flex;
+    gap: 30px;
+}
 
 .customers-item {
 
-    width: 407px;
+    width: calc((100% - 60px)/3);
     height: 240px;
 
     outline: 1px solid red;
@@ -159,6 +386,19 @@ p {
     text-align: left;
 }
 
-.customers-box {}
+.customers-box {
+    display: flex;
+    padding-left: 26px;
+    gap: 17px;
+
+}
 
 .customers-card {}
+
+.customers-subtitle {
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.21;
+    text-align: left;
+}
