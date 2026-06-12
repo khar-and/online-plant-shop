@@ -64,14 +64,15 @@
       </div>
     </section>
 
-    <section>
-      <div class="container">
-        <h2>Deal Of The Day</h2>
-        <img src="" alt="plant" width="487" height="672" />
-        <ul>
+    <section class="deal">
+      <div class="container deal-container">
+        <h2 class="deal-title">Deal Of The Day</h2>
+        <div class="deal-wrap">
+          <img src="./images/deal-plant.png" alt="plant" width="487" height="672" />
+        <ul class="deal-list">
           <li>
-            <img src="" alt="" />
-            <h3></h3>
+            <img src="" alt="Golden Pothos" width="297px" height="320px"/>
+            <h3>Golden Pothos</h3>
             <p><span></span></p>
             <img src="" alt="" />
             <ul>
@@ -96,6 +97,7 @@
           <li></li>
           <li></li>
         </ul>
+        </div>
       </div>
     </section>
 
@@ -188,6 +190,17 @@ come and shop with us.</p>
       </div>
     </section>
 
+    <section class="Lorem">
+      <div class="container lorem-container">
+        <div class="lorem-background"></div>
+        <div class="lorem-wrap">
+          <h2 class="lorem-title">Lorem ipsum dolor sit amet consectetur</h2>
+          <p class="lorem-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla tempus massa, eget volutpat justo commodo id. Mauris eu neque purus. Nullam et pulvinar ligula. Vivamus nec odio at orci egestas molestie. Donec efficitur est ut pellentesque tempor. Nam convallis quam nec facilisis laoreet. Praesent volutpat quis lectus ac pharetra. Praesent in euismod sem. Etiam ac erat at lorem volutpat interdum ut vel est. Quisque eu nisl molestie, imperdiet mi et, rhoncus odio. Proin varius massa aliquet velit convallis gravida. Integer volutpat aliquet est ut viverra. Ut nec convallis turpis. Aenean molestie sapien tellus,a fermentum nibh viverra non. Nunc suscipit, lacus eget pellentesque bibendum, lacus magna sollicitudin quam, sit amet commodo purus. </p>
+          <button class="lorem-btn" type="button">Get More Information</button>
+        </div>
+      </div>
+    </section>
+
 <section class="collection">
   <div class="container">
     <h2 class="collection-title">Plant Collection</h2>
@@ -205,7 +218,7 @@ come and shop with us.</p>
 </section>
 
     <section class="customers">
-      <div class="container">
+      <div class="container customers-container">
         <h2 class="customers-title">What Our Customers Say ?</h2>
         <ul class="customers-list">
           <li class="customers-item">
@@ -284,18 +297,54 @@ come and shop with us.</p>
       </div>
     </section>
 
-    <footer>
-      <div class="container">
-        <a class="header-logo" href="/">
-          <img src="./images/Logo.svg" alt="site logo" />Planty</a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-          <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-wrap">
+          <a class="footer-logo" href="/">
+          <svg class="footer-logo-icon" width="52px" height="51px">
+            <use href="./images/icons.svg#icon-Logo"></use>
+          </svg>
+          <p class="footer-logo-part">Planty</p>
+        </a>
+                <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          <ul class="footer-social">
+          <li class="footer-social-item">
+            <a class="footer-social-link" href="">
+              <svg class="footer-icon" width="11px" height="22px">
+                <use href="./images/icons.svg#icon-fb"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="footer-social-link" href="">
+              <svg class="footer-icon" width="19px" height="19px">
+                <use href="./images/icons.svg#icon-in"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="footer-social-link" href="">
+              <svg class="footer-icon" width="20px" height="20px">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="footer-social-link" href="">
+              <svg class="footer-icon" width="21px" height="21px">
+                <use href="./images/icons.svg#icon-picasso"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+             <a class="footer-social-link" href="">
+              <svg class="footer-icon" width="23px" height="18px">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
         </ul>
+        </div>
       </div>
     </footer>
   </body>
