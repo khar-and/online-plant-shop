@@ -203,6 +203,8 @@ img {
 
 .shop-img {
     margin-bottom: 32px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+    background: url(../images/shop-bgcolor.jpg);
 }
 
 .shop-card-text {
@@ -543,4 +545,53 @@ img {
 
 .footer-icon {
     fill: #fff
+}
+
+.footer-links-title {
+    margin-bottom: 40px;
+
+
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.39;
+    text-align: left;
+}
+
+.footer-links-title::after {
+    display: block;
+    content: "";
+    border: 3px solid rgba(199, 219, 133, 1);
+    width: 40px;
+    margin-top: 8px;
+}
+
+.footer-links {}
+
+.footer-links-item {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-links-item::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+
+
+.footer-links-item:last-child {
+    margin-bottom: 0;
+}
+
+.footer-links-link {
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.67;
+    text-align: left;
 }
